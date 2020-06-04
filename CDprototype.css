@@ -1,0 +1,426 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html,
+body {
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+	overflow-x: hidden;
+}
+
+#header-box {
+	position: fixed;
+	background: white;
+	width: 100%;
+	z-index: 2;
+}
+
+#header-box a img {
+	margin-top: 10px;
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	position: relative;
+	margin-top: -40px;
+	margin-left: 1300px;
+}
+
+header ul li {
+	list-style: none;
+	margin-right: 15px;
+}
+
+.download {
+	background: #69d385;
+	padding: 12px;
+	border: 1px solid #69d385;
+	width: 120px;
+	border-radius: 5px;
+	margin: -15px 5px auto 0;
+	color: white;
+	font-size: 1em;
+}
+
+header li a i {
+	shape-outside: circle();
+	clip-path: circle();
+	background: #adb4c01f;
+	padding: 10px;
+	margin-top: -5px;
+	color: #28b76b;
+}
+
+.documentation {
+	display: block;
+	background: #69d385;
+	max-width: 100%;
+	height: 220px;
+	text-align: center;
+	color: white;
+	margin-top: 70px;
+}
+
+.doc-heading {
+	font-weight: bold;
+	font-size: 2.5em;
+	padding: 35px 0 0 0;
+}
+
+.documentation p {
+	font-size: 1.1em;
+	margin-top: 0;
+}
+
+.input a {
+	margin-left: -40px;
+	color: gray;
+}
+
+.input a:hover {
+	color: #69d385;
+}
+
+.search {
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 12px;
+	width: 500px;
+}
+
+::-webkit-input-placeholder {
+  font-family: 'Poppins', sans-serif;
+}
+::-moz-placeholder {
+  font-family: 'Poppins', sans-serif;
+}
+:-ms-input-placeholder {
+  font-family: 'Poppins', sans-serif;
+}
+::placeholder {
+  font-family: 'Poppins', sans-serif;
+}
+
+.nav_box {
+	margin: 60px 100px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.nav_box a {
+	border: 1px solid white;
+	border-radius: 5px;
+	width: 300px;
+	padding: 20px;
+	margin: 15px 15px;
+	-webkit-box-shadow: 3px 3px 6px 3px rgba(218,218,218,0.97); 
+	box-shadow: 3px 3px 6px 3px rgba(218,218,218,0.97);
+	text-decoration: none;
+	color: #4d4e53;
+	text-align: justify;
+}
+
+.nav_box a header {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.nav_box a header i {
+	shape-outside: circle();
+	clip-path: circle();
+	background: #adb4c01f;
+	padding: 18px;
+	color: #28b76b;
+	margin-right: 20px;
+	margin-left: -10px;
+	font-size: 1.3em;
+}
+
+.nav_box a:hover {
+	background: #edfdf3;
+}
+
+.nav_box a header i:hover {
+	background: white;
+}
+
+.launch_box {
+	background: #69d385;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	height: 260px;
+}
+
+.launch_box p:first-child {
+	font-size: 1.7em;
+	font-weight: bold;
+}
+
+.launch_box p a {
+	color: white;
+	text-decoration: none;
+}
+
+.launch_box p a:hover {
+	text-decoration: underline;
+}
+
+.lastp {
+	margin-bottom: 40px;
+}
+
+.getcodepro {
+	padding: 10px 20px;
+	color: rgba(40, 183, 107, 0.9);
+	font-size: 0.9em;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	background: white;
+	border: 1px solid white;
+	border-radius: 5px;	
+	text-decoration: none;
+}
+
+.getcodepro span {
+	padding-left: 10px;
+	shape-outside: circle();
+	clip-path: circle();
+	background: #28b76b;
+	padding: 3px;
+	margin-top: -5px;
+	color: white;
+	font-size: 0.8em;
+}
+
+.getcodepro:hover {
+	background: rgba(255, 255, 255, 0.9);
+}
+
+.footerlink ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.footerlink li {
+	margin: 30px 20px 0 20px;
+	shape-outside: circle();
+	clip-path: circle();
+	background: #adb4c01f;
+	padding: 10px;
+}
+
+.footerlink li a i {
+	color: #28b76b;
+}
+
+.designer {
+	text-align: center;
+	margin: 25px 0 50px 0;
+	color: #5d6778;
+	font-size: 0.875rem;
+	font-weight: 400;
+}
+
+.designer i {
+	color: #fb866a;
+}
+
+.designer a {
+	color: black;
+}
+
+.designer a:hover {
+	color: #28b76b;
+}
+
+
+@media only screen and (max-width: 480px) {
+
+.cdlogo img {
+	width: 130px;
+	height: 40px;
+	margin-left: 10px;
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	position: relative;
+	margin-top: -40px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+header ul li {
+	list-style: none;
+	margin-right: 5px;
+}
+
+.download {
+	background: #69d385;
+	padding: 5px;
+	border: 1px solid #77dfa7;;
+	width: 100px;
+	border-radius: 5px;
+	margin: -15px 5px auto 0;
+	color: white;
+	font-size: 0.875em;
+}
+
+.documentation {
+	height: 255px;
+	font-size: 0.9em;
+}
+
+.search {
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 12px;
+	max-width: 350px;
+}
+
+.nav_box {
+	margin: 60px 10px;
+
+}
+
+.nav_box a {
+	width: 400px;
+}
+
+.launch_box {
+	height: 360px;
+	font-size: 0.9em;
+}
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+.cdlogo img {
+	width: 130px;
+	height: 40px;
+	margin-left: 10px;
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	position: relative;
+	margin-top: -40px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+header ul li {
+	list-style: none;
+	margin-right: 5px;
+}
+
+.download {
+	background: #69d385;
+	padding: 5px;
+	border: 1px solid #77dfa7;;
+	width: 100px;
+	border-radius: 5px;
+	margin: -15px 5px auto 0;
+	color: white;
+	font-size: 0.875em;
+}
+
+.documentation {
+	height: 235px;
+	font-size: 0.9em;
+}
+
+.search {
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 12px;
+	max-width: 350px;
+}
+
+.nav_box {
+	margin: 60px 10px;
+
+}
+
+.nav_box a {
+	width: 700px;
+}
+
+.launch_box {
+	height: 290px;
+	font-size: 0.9em;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1028px) {
+
+.cdlogo img {
+	width: 130px;
+	height: 30px;
+	margin-left: 10px;
+}
+
+header ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	position: relative;
+	margin-top: -35px;
+	margin-left: 10px;
+	margin-right: 5px;
+}
+
+header ul li {
+	list-style: none;
+	margin-right: 5px;
+}
+
+.download {
+	background: #69d385;
+	padding: 5px;
+	border: 1px solid #77dfa7;;
+	width: 100px;
+	border-radius: 5px;
+	margin: -15px 5px auto 0;
+	color: white;
+	font-size: 0.875em;
+}
+
+.documentation {
+	height: 235px;
+	font-size: 0.9em;
+	margin-top: 40px;
+}
+
+.search {
+	border: 1px solid white;
+	border-radius: 20px;
+	padding: 12px;
+	max-width: 350px;
+}
+
+.nav_box {
+	margin: 60px auto;
+}
+
+.nav_box a {
+	max-width: 200px;
+}
+
+.launch_box {
+	height: 290px;
+	font-size: 0.9em;
+}
+
+}
