@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1024px) {
+
+.input {
+	margin-left: 300px;
+}
+
+header ul {
+	display: grid;
+	grid-template-columns: 40px 40px 40px 40px 30px;
+	position: relative;
+	margin-top: -40px;
+	margin-left: 200px;
+	margin-right: 150px;
+}
+
+header ul li {
+	list-style: none;
+	margin-right: 5px;
+}
+
+.download {
+	background: #69d385;
+	padding: 5px;
+	border: 1px solid #77dfa7;;
+	width: 80px;
+	border-radius: 5px;
+	margin: -5px 150px auto 40px;
+	color: white;
+	font-size: 0.875em;
+}
