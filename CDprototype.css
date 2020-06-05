@@ -272,7 +272,7 @@ header ul li {
 }
 
 .documentation {
-	height: 240px;
+	height: 230px;
 	font-size: 0.9em;
         padding: 30px 10px;
 }
@@ -306,7 +306,7 @@ header ul li {
 }
 
 .footerlink ul {
-        margin: auto 40px auto -40px;
+        margin: auto 70px auto -70px;
 }
 
 .designer {
